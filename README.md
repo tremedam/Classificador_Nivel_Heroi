@@ -23,7 +23,7 @@ heroi-classificador
 
 1. **Clone o repositório:**
    ```bash
-   git clone <https://github.com/tremedam/Classificador_Nivel_Heroi.git>
+   git clone https://github.com/tremedam/Classificador_Nivel_Heroi.git
    ```
 
 2. **Navegue até o diretório do projeto:**
