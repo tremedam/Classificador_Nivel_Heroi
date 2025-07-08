@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.97);
+    padding: 32px 28px 28px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.13), 0 1.5px 4px rgba(44,62,80,0.07);
+    border: 1px solid #e3eaf1;
+}
+
+label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+    display: block;
+    font-size: 1.08em;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1.5px solid #b7cbe3;
+    border-radius: 6px;
+    font-size: 1.08em;
+    background: #f8fbff;
+    transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #4f8cff;
+    box-shadow: 0 0 0 2px #b3d1ff55;
+    background: #f4faff;
+}
+
+button {
+    background: linear-gradient(90deg, #28a745 60%, #43e97b 100%);
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.15em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(40,167,69,0.08);
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #218838 60%, #38d67a 100%);
+    transform: translateY(-2px) scale(1.02);
+}
+
+.result {
+    margin-top: 28px;
+    font-size: 1.25em;
+    text-align: center;
+    color: #222;
+    background: #eafaf1;
+    border-radius: 8px;
+    padding: 18px 10px;
+    box-shadow: 0 1px 6px rgba(40,167,69,0.06);
+    border: 1px solid #b7eacb;
+    font-weight: 500;
+    min-height: 40px;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.result.success {
+    background: #eafaf1;
+    border-color: #b7eacb;
+}
+
+.result.error {
+    background: #f8d7da;
+    border-color: #f5c6cb;
+}
