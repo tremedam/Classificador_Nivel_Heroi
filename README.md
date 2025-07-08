@@ -2,7 +2,7 @@
 
 Este projeto é um classificador de nível de herói que determina o nível de um herói com base em sua quantidade de experiência (XP). O sistema classifica os heróis em diferentes níveis, desde Ferro até Radiante, dependendo da XP fornecida.
 
-![Exemplo da Interface](image.png)
+![Exemplo da Interface](/src/images/image.png)
 
 ## Estrutura do Projeto
 
