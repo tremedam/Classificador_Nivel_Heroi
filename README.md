@@ -1,5 +1,7 @@
 # Heroi Classificador
 
+> **Este projeto foi desenvolvido como trabalho da trilha de Frontend da DIO.**
+
 Este projeto é um classificador de nível de herói que determina o nível de um herói com base em sua quantidade de experiência (XP). O sistema classifica os heróis em diferentes níveis, desde Ferro até Radiante, dependendo da XP fornecida.
 
 ![Exemplo da Interface](/src/images/image.png)
