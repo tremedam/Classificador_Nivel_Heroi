@@ -2,6 +2,8 @@
 
 Este projeto é um classificador de nível de herói que determina o nível de um herói com base em sua quantidade de experiência (XP). O sistema classifica os heróis em diferentes níveis, desde Ferro até Radiante, dependendo da XP fornecida.
 
+![Exemplo da Interface](image.png)
+
 ## Estrutura do Projeto
 
 O projeto possui a seguinte estrutura de arquivos:
@@ -21,7 +23,7 @@ heroi-classificador
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/tremedam/Classificador_Nivel_Heroi.git>
    ```
 
 2. **Navegue até o diretório do projeto:**
